@@ -22,7 +22,7 @@ public class VehiculoDto {
     private String placa;
     @Column(name = "capacidad")
     private String capacidad;
-    @ManyToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "conductor_id", referencedColumnName = "id")
+    @ManyToOne
+    @JoinColumn(name = "conductor_id", referencedColumnName = "id", nullable = true)
     private ConductorDto conductor;
 }

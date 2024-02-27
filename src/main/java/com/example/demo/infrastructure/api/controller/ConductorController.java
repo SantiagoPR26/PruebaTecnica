@@ -1,7 +1,6 @@
 package com.example.demo.infrastructure.api.controller;
 
 import com.example.demo.application.conductor.ConductorSaveApplication;
-import com.example.demo.domain.entities.Conductor;
 import com.example.demo.infrastructure.api.dto.request.conductor.ConductorSaveRequest;
 import com.example.demo.infrastructure.api.dto.response.conductor.ConductorResponse;
 import com.example.demo.infrastructure.api.mapper.conductor.ConductorResponseMapper;
@@ -22,7 +21,6 @@ public class ConductorController {
 
     private final ConductorResponseMapper conductorResponseMapper;
     private final ConductorSaveRequestMapper conductorSaveRequestMapper;
-
 
     @PostMapping("/guardar")
     @Operation(summary = "registra un conductor de la empresa")

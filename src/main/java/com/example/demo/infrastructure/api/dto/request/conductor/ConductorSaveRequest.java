@@ -4,6 +4,7 @@ import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.Pattern;
 import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.antlr.v4.runtime.misc.NotNull;
@@ -11,6 +12,7 @@ import org.antlr.v4.runtime.misc.NotNull;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
+@Builder
 public class ConductorSaveRequest {
     @NotNull
     @Schema(description = "Identificacion del conductor", example = "45789879")
