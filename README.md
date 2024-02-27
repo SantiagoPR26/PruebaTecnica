@@ -6,15 +6,15 @@ Este proyecto utiliza una variedad de tecnologías para desarrollar una aplicaci
 
 
 
-    Java 17: Utilice una de las últimas versiónes de Java para aprovechar sus características y mejoras
+    Java 17: Utilicé una de las últimas versiónes de Java para aprovechar sus características y mejoras
 
     Spring Framework: Esta aplicación está construida con el ecosistema de Spring, incluyendo Spring Boot, Spring Data JPA y Spring Validation.
 
-    MySQL : Utilize MySQL Workbench para manejar la base de datos de manera local.
+    MySQL : Utilicé MySQL Workbench para manejar la base de datos de manera local.
 
     Hibernate ORM: Hibernate se utiliza para mapear objetos Java a las tablas de la base de datos y realizar operaciones de base de datos.
 
-    MapStruct: Esta biblioteca la utilice  para simplificar el mapeo entre objetos DTO y entidades de base de datos.
+    MapStruct: Esta biblioteca la utilicé  para simplificar el mapeo entre objetos DTO y entidades de base de datos.
 
     Lombok: Lombok me ayudo a reducir la extension de código generando automáticamente getters, setters y otros métodos.
 
