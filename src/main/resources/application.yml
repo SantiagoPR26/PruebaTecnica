@@ -1,0 +1,12 @@
+spring:
+  profile: local
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: ${DATABASE_URL}
+    username: ${USER_NAME}
+    password: ${PASSWORD}
+  jpa:
+    hibernate:
+      show-sql: true
+      format-sql: true
+    ddl-auto: none
